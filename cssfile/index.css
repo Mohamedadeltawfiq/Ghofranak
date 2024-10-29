@@ -1,0 +1,31 @@
+.container{
+    margin-top: 10px;
+    margin-inline: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+.container img{
+    width: 200px;
+}
+.container h2{
+    color: rgb(12, 125, 160);
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(12, 125, 160);
+    padding: 1px 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+.container a:hover{
+    background-color: rgb(13, 102, 129);
+    transform: scale(1.2);
+    border: 1px solid rgb(59, 191, 231);
+}

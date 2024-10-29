@@ -1,0 +1,55 @@
+.container-box{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(231, 237, 238);
+    padding: 10px 0px;
+
+}
+.container-box .boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px ;
+}
+.container-box .boxes .box{
+    width: 200px;
+    padding: 20px 0px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    text-align: center;
+    color: rgb(9, 106, 136);
+    background-color: white;
+    transition: 0.2s ease-in;
+    border-bottom: 1px solid rgba(12, 125, 160, 0.459);
+    border-top: 1px solid rgba(12, 125, 160, 0.459);
+
+}
+.container-box .boxes .box:hover{
+    transform: rotate(10deg);
+}
+.container-box .boxes .box img{
+    width: 100px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: 0.2s ease-in;
+}
+.container-box .boxes .box a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(12, 125, 160);
+    padding: 0px 12px;
+    margin-top: 10px;
+    display: inline-block;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.2s ease-in;
+}
+.container-box .boxes .box a:hover{
+    background-color: rgb(13, 102, 129);
+    transform: scale(1.2);
+}

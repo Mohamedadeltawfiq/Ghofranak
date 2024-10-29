@@ -1,0 +1,32 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.container h1{
+    color: rgb(9, 106, 136);
+}
+.container img{
+    width: 220px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-bottom: 20px;
+}
+.container .box{
+    color: white;
+    background-color: rgb(9, 106, 136);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 5px;
+    width: 200px;
+    direction: rtl;
+    transition: 0.2s ease-in
+}
+.container .box:hover{
+    background-color: rgb(10, 70, 88);
+    transform: scale(1.05);
+}

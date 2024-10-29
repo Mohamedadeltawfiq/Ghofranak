@@ -1,0 +1,43 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.home h1{
+    color: rgb(9, 106, 136);
+}
+.home img{
+    width: 220px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-bottom: 20px;
+}
+.container .boxes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    direction: rtl;
+}
+.container .boxes .bo{
+    color: white;
+    background-color: rgb(9, 106, 136);
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 70px;
+    padding: 2px 0px;
+    text-align: center;
+    transition: 0.2s ease-in;
+    
+}
+.container .boxes .bo:hover{
+    background-color: rgb(10, 70, 88);
+    transform: scale(1.05);
+}

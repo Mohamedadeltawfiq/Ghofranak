@@ -1,0 +1,64 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.container h1{
+    color: rgb(9, 106, 136);
+}
+.container img{
+    width: 220px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-bottom: 20px;
+}
+.container .boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.container .box{
+    color: white;
+    background-color: rgb(153, 158, 160);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    padding: 8px 5px;
+    width: 90px;
+    direction: rtl;
+    transition: 0.2s ease-in
+}
+.container .box:hover{
+    background-color: rgba(10, 70, 88, 0.452);
+    transform: scale(1.05);
+}
+.container .boxes .box img{
+    transition: 0.2s ease;
+    width: 100px;
+    margin-bottom: 0px;
+}
+.container .boxes .box img:hover{
+    transform: scale(0.9);
+}
+.container .boxes .box a{
+    text-decoration: none;
+    color: rgb(12, 125, 160);
+    background-color:white ;
+    padding: 0px 12px;
+    margin-top: 10px;
+    display: inline-block;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.2s ease-in;
+    font-size: small;
+}
+.container .boxes .box a:hover{
+    background-color: rgb(238, 238, 238);
+    transform: scale(1.1);
+}

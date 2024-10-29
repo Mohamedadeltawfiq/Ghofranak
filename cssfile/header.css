@@ -1,0 +1,42 @@
+header{
+    height: 30px;
+    padding: 10px 0px 0px 0px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(14, 161, 206, 0.384);
+    padding: 0px 0px 10px 0px;
+    direction: rtl;
+}
+header nav a{
+    color: rgb(14, 161, 206);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+header nav a:hover{
+    color: rgb(15, 123, 156);
+    transform:scale(1.1);
+}
+header nav .back{
+    color: white;
+    background-color:rgb(14, 161, 206);
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0px 2px;
+    text-align: center;
+    transition: 0.2s ease-in;
+    font-size: 16px;
+}
+header nav .back:hover{
+    color:white ;
+    transform:scale(1.1);
+    background-color: rgb(15, 123, 156);
+}
+header nav p{
+    font-weight: 900;
+    color: rgb(14, 161, 206);
+    user-select: none;
+}
